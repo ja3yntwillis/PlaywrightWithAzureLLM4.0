@@ -5,7 +5,7 @@ import { assert } from "console";
 import { string } from "zod";
 
 const apiKey = "";
-const resource = "openaitestja3ynt";
+const resource = "";
 const model = "gpt-4.1";
 
 const options: StepOptions = {
