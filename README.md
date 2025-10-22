@@ -15,7 +15,7 @@ npm install auto-playwright -D
 At minimum, the `auto` function requires a _plain text prompt_ and an _argument_ that contains your `page` and `test` (optional) objects.
 
 ```ts
-auto("<your prompt>", { page, test });
+auto("<your prompt>", { page, test },setupoptions);
 ```
 
 
