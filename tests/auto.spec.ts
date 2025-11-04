@@ -28,7 +28,7 @@ test("auto Playwright example", async ({ page }) => {
   // In this case, the result is a boolean outcome
   const searchInputHasHeaderText = await auto(
     `is the Sauce Labs Backpack displayed?`,
-    { page },
+    { page  },
     options,
   );
 
